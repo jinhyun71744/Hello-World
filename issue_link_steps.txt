@@ -1,0 +1,39 @@
+    1  git checkout
+    2  git checkout main
+    3  git pull origin main
+    4  git pull origin tower
+    5  git add .
+    6  git commit -m "merge"
+    7  git push
+    8  git pull origin main
+    9  git commit -m "다 합친거"
+   10  git add .
+   11  git commit -m "다 합친거"
+   12  git push origin main
+   13  git pull origin main
+   14  clear
+   15  git branch monster
+   16  git checkout monster
+   17  git pull origin main
+   18  git branch -vv
+   19  git fetch origin
+   20  git chechout main
+   21  git checkout main
+   22  touch issue_test.txt
+   23  git add .
+   24  git commit -m "fix: #3 커밋에 이슈 연동하기 테스트"
+   25  git push
+   26  git add .
+   27  git commit -m "docs: #4 2nd"
+   28  git push
+   29  git add .
+   30  git commit -m "docs: #4 2ndb "
+   31  git push
+   32  git add .
+   33  git commit -m "close: #4 2ndb "
+   34  git push
+   35  칟ㅁㄱ
+   36  clear
+   37  git history
+   38  history
+   39  history >> issue_link_steps.txt
